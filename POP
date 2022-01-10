@@ -1,0 +1,25 @@
+// Configuração Git Hub
+/ Primeira vez
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vitin0897/sisglicV2.git
+git push -u origin main
+
+/ Durante o projeto
+git add .
+git commit -m ""
+git push origin main
+
+// Instalacao laravel 8
+composer create-project laravel/laravel NOME-DO-PROJETO
+
+// Bootstrap com laravel 8
+/ bootstrap
+composer require laravel/ui
+php artisan ui bootstrap
+npm install && npm run dev
+
+/ bootstrap login
+php artisan ui bootstrap --auth
